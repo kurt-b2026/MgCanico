@@ -5,12 +5,12 @@
 ---
 
 Outline:
--Home page, links to all rocket information (with interactable modules)
--First page, rocket history (1910's - 2022)
--Second page, information about rocket parts (linked towards by tapping a module of a rocket in a picture in the home age)
--Third page, more information about rocket parts and engines by history and political zones
--Fourth page, history of astronauts.
--Fifth page, The Future..
+- Home page, links to all rocket information (with interactable modules)
+- First page, rocket history (1910's - 2022)
+- Second page, information about rocket parts (linked towards by tapping a module of a rocket in a picture in the home age)
+- Third page, more information about rocket parts and engines by history and political zones
+- Fourth page, history of astronauts.
+- Fifth page, The Future..
 
 WIREFRAME BY PHILLER.
 
