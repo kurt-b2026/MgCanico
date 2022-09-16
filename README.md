@@ -11,6 +11,6 @@ Outline:
 - Third page, more information about rocket parts and engines by history and political zones
 - Fourth page, history of astronauts.
 - Fifth page, The Future..
-- *the future web pages are for specific details regarding rockets.\
+- *the future web pages are for specific details regarding rockets.
 
 WIREFRAME BY PHILLER AUCHINLECK SIY
