@@ -1,0 +1,142 @@
+/*trebuchet ms font for everything - remove all margins too*/
+*{
+	margin: 0;
+	padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+/*for the section with the header tag*/
+.header{
+	min-height: 8vh;
+	width: 100%;
+  background-color: rgba(10,10,10,0.65);
+	background-position: center;
+  background-size: cover;
+	position: relative;
+}	
+.body{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background-images/NASA-JWSTCARINALOWRES.png);
+	background-position: center top;
+	background-size: cover;
+	position: relative;
+}	
+/*the rest that starts with nav is basically for the links*/
+nav {
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 150px;
+}
+
+.topheader{
+  display: block;
+  position: absolute;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+}
+
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block; /*makes display horizontal*/
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+/*text box*/
+.text-box{
+  width:100%;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  transform: translate (-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 62px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: #bcbcbc;
+}
+
+.lower{
+  margin: 0px 0 0px;
+  font-size: 15px;
+  color: #bcbcbc;
+}
+
+@media(max-width: 700px){
+  
+}
+
+/*for that epic zoom (just give the div tag for an individual element or image the "zoom" tag to give it the effect)*/
+
+.zoom {
+  padding: 50px;
+  transition: transform .25s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+}
+
+/*For small texts*/
+/*
+.zoomtext {
+  padding: 10px;
+  transition: transform .25s;
+  width: 50px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.zoomtext:hover {
+  transform: scale(1.1);
+}
+*/
+
+/*Title*/
+/*
+.header-title{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background-images/NASA-JWSTCARINALOWRES.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+*/
