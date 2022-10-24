@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Homepage Test</title>
+    <title>History</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="../style.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
 </head>
-  
-<body>
+<body class="body">
 	<section class="header">
 		<nav>
-			<a href="History.html"><img src="../background-images/NASA-LOGO.png" width="200" /></a>
+			<a href="index.html"><img src="../background-images/NASA-LOGO.png" width="200" /></a>
 			<div class="nav-links">
 				<ul>
-					<li><a href="../index.html">HOME</a></li>
-					<li><a href="">EXPLORERS</a></li>
-					<li><a href="">FUTURE</a></li>
-					<li><a href="">REFERENCES</a></li>
+          <li class="zoomtext"><a href="../index.html">HOME</a></li>
+					<li class="zoomtext"><a href="Explorers.html">EXPLORERS</a></li>
+					<li class="zoomtext"><a href="Webpages/Future.html">FUTURE</a></li>
+					<li class="zoomtext"><a href="Webpages/References.html"> REFERENCES </a></li>
 				</ul>
-			</div>
-		</nav>
-	</section>
+      </div>
+		</nav>  
+  </section>
 
-  /*
+  <section>
+  <div class="title">
+    <h1>History</h1>
+  </div>
+  </section>
+
+<section>
     <div class="slideshow-container">
+      
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
         <img src="../background-images/NASA-JWSTCARINALOWRES.png" style="width:100%">
         <div class="text">Konstantin publishes papers theorizing about powering rockets with liquid fuel instead of solid fuels. Robert H. Goddard also publishes a paper 12 years after (1915) regarding his experiments about liquid oxygen and gasoline as fuel for powering a small rocket successfully.</div>
       </div>
+      
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="../background-images/NASA-JWSTCARINALOWRES.png" style="width:100%">
-        <div class="text">Sunset in Romania</div>
+        <img src="../background-images/History-Images/Slide2-V2.jpg" style="width:100%">
+        <div class="text">Dr. Hermann Oberth makes papers regarding rocket travel during 1923. This served as the inspiration for the German missile V2 (A liquid fuel powered missile) that was supposed to be used against England. However, the rocket was made too late to be used by Germany.</div>
       </div>
+      
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="../background-images/NASA-JWSTCARINALOWRES.png" style="width:100%">
-        <div class="text">New York, USA</div>
+        <img src="../background-images/History-Images/Slide3-Sputnik1.jpg" style="width:100%">
+        <div class="text">October 4, 1957<br>Sputnik 1. The genesis. The beginning of a new era of space exploration. The name Sputnik was derived from “wayfarer” and was the first artificial satellite to enter the Low Earth Orbit. Its purpose was simple: to test the limits and capabilities of manmade objects in space. It sent signals to the Russian space stations for 3 weeks until its zinc batteries ran out and it lifelessly orbited the planet for 2 months, before falling back down.</div>
       </div>
+            
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../background-images/History-Images/Slide3-Sputnik1.jpg" style="width:100%">
+        <div class="text">October 4, 1957<br>Sputnik 1. The genesis. The beginning of a new era of space exploration. The name Sputnik was derived from “wayfarer” and was the first artificial satellite to enter the Low Earth Orbit. Its purpose was simple: to test the limits and capabilities of manmade objects in space. It sent signals to the Russian space stations for 3 weeks until its zinc batteries ran out and it lifelessly orbited the planet for 2 months, before falling back down.</div>
+      </div>
+
+      
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
@@ -77,8 +96,7 @@
         dots[slideIndex - 1].className += " active";
       }
     </script>
-
-  */
-
+</section>
+  
 </body>
 </html>
